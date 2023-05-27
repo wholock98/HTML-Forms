@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" class="form" id="form">
+       
+                <label for="name">Nombre:</label>
+                <br>
+                <input type="text" name="user_name" id="name">   
+            
+            <br>
+            
+                <label for="mail">Email:</label>
+                <br>
+                <input type="mail" name="email" id="email">
+            
+            <br>
+           
+                <label for="age">Age:</label>
+                <br>
+                <input type="date" id="age" min="0" max="99" placeholder="Ingresa tu edad" >
+           
+            <br>
+           
+                <label for="description">Which best option describes you?</label>
+                <br>
+                <select id="drop" name="drop">
+                    <option value="Student">Student</option>
+                    <option value="Profesor">Profesor</option>
+                </select>
+            
+            <br>
+                <label for="radio">Would you recommend this site</label>
+                <br>
+                <br>
+                <input type="radio" id="opcion1" name="option" value="option1" class="radio">
+                <label for="option1">YES</label>
+                
+                <br>
+                <input type="radio" id="opcion2" name="option" value="option2" class="radio">
+                <label for="option2">NO</label>
+                
+                <br>
+                <input type="radio" id="opcion3" name="option" value="option3" class="radio">
+                <label for="option3">Maybe</label>
+               
+            
+            <br>
+            <br>
+        <input type="checkbox" id="c" name="language" value="c">       
+        <label for="c">C</label>
+        <br>
+        <input type="checkbox" id="csharp" name="language" value="c++">
+        <label for="c++">C++</label>
+        <br>
+        <input type="checkbox" id="csharp" name="language" value="csharp">
+        <label for="csharp">C#</label>
+        <br>
+        <input type="checkbox" id="java" name="language" value="java">
+        <label for="java">Java</label>
+        <br>
+        <input type="checkbox" id="python" name="language" value="python">
+        <label for="python">Python</label>
+        <br>
+        <input type="checkbox" id="javascript" name="language" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <input type="checkbox" id="React" name="language" value="React">
+        <label for="react">React</label>  
+        <br>
+        <input type="checkbox" id="angular" name="language" value="angular">
+        <label for="angular">Angular</label>
+        <br>
+        <input type="checkbox" id="django" name="language" value="django">
+        <label for="django">Django</label> 
+        <br>
+        <input type="checkbox" id="spring" name="language" value="spring">
+        <label for="spring">Spring</label>
+        <br>
+        <br>
+        <label for="comentario">Any comments or suggestions</label>
+        <br>
+        <textarea id="comment" name="comment" placeholder="Escribe aqui tu comentario"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="send" id="btn_form">
+    </form>
+
+
+
+
+
+    
+</body>
+</html>
